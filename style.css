@@ -1,0 +1,54 @@
+
+.previous-button,.next-button{
+    position: relative;
+    top: 50%;
+    padding: 10px;
+    font-size: 2rem;
+    height: fit-content;
+    color: white;
+    background-color: skyblue;
+}
+.main-container{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    height: 500px;
+    width: 500px;
+    margin-top: 20px;
+}
+.images-container{
+    display: flex;
+    margin: auto;
+}
+.dots {
+    height: 3px;
+    border-radius: 100%;
+    border: 6px solid wheat;
+}
+.dots-container{
+    display: flex;
+    gap: 8px;
+    position: relative;
+    top: 93%;
+    right: 60%;
+}
+.active{
+    border-color: blue;
+}
+img{
+    height: 500px;
+    width: 500px;
+}
+.previous-button{
+    left: 40px;
+}
+.next-button{
+    right: 40px;
+}
+.dots:hover,.previous-button:hover,.next-button:hover{
+    cursor: pointer;
+}
+body{
+    margin: 0;
+}
